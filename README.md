@@ -6,19 +6,16 @@ Este projeto tem como objetivo organizar relatórios por colunas na planilha Exc
 
 ## Erros a serem Corrigidos
 
-### Erro 1: Manipulação Incorreta de Campos
 
-O script está passando atualmente campos que contêm ":" e são descritos como títulos de colunas de forma incorreta. Isso precisa ser corrigido para garantir que os campos corretos sejam usados.
-
-### Erro 2: Requisições em Excesso
+### Erro 1: Requisições em Excesso
 
 O script está fazendo requisições excessivas para a API OpenAI, o que está impedindo a geração de títulos com base nos resumos. Isso precisa ser tratado implementando o controle de limites de taxa e otimizando as requisições.
 
-### Erro 3: Colunas Não Necessárias
+### Erro 2: Colunas Não Necessárias
 
 O script deve incluir uma função que remove colunas não necessárias que não serão necessárias para o Rossio. Isso precisa ser adicionado ao script.
 
-### Erro 4: Compatibilidade com Diferentes Tipos de Relatórios
+### Erro 3: Compatibilidade com Diferentes Tipos de Relatórios
 
 O script precisa ser testado com diferentes tipos de relatórios, como relatórios audiovisuais e entrevistas, para garantir que funcione corretamente com esses tipos de dados.
 
